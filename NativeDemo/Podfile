@@ -1,0 +1,22 @@
+flutter_application_path = '../flutter_module'
+load File.join(flutter_application_path,'.iOS','Flutter','podhelper.rb')
+
+platform :ios, '12.0'
+
+target 'NativeDemo' do
+  install_all_flutter_pods(flutter_application_path)
+  use_frameworks!
+
+  # Pods for NativeDemo
+
+end
+
+
+
+#post_install do |installer|
+#  flutter_post_install(installer) if defined?(flutter_post_install)
+#end
+
+post_install do |installer|
+  flutter_post_install(installer) if defined?(flutter_post_install)
+end
