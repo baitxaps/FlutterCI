@@ -7,112 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58FD88532BEFAFFF0085A5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD88522BEFAFFF0085A5B8 /* AppDelegate.m */; };
-		58FD88562BEFAFFF0085A5B8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD88552BEFAFFF0085A5B8 /* SceneDelegate.m */; };
-		58FD88592BEFAFFF0085A5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD88582BEFAFFF0085A5B8 /* ViewController.m */; };
-		58FD885C2BEFAFFF0085A5B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 58FD885B2BEFAFFF0085A5B8 /* Base */; };
-		58FD885E2BEFB0000085A5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FD885D2BEFB0000085A5B8 /* Assets.xcassets */; };
-		58FD88612BEFB0000085A5B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 58FD88602BEFB0000085A5B8 /* Base */; };
-		58FD88642BEFB0000085A5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD88632BEFB0000085A5B8 /* main.m */; };
-		A1DA75652748B1FE7478E178 /* Pods_NativeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA76B910BF8AA84747220C1C /* Pods_NativeDemo.framework */; };
+		58FD89352BF1ED3A0085A5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD89342BF1ED3A0085A5B8 /* AppDelegate.m */; };
+		58FD89382BF1ED3A0085A5B8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD89372BF1ED3A0085A5B8 /* SceneDelegate.m */; };
+		58FD893B2BF1ED3A0085A5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD893A2BF1ED3A0085A5B8 /* ViewController.m */; };
+		58FD893E2BF1ED3A0085A5B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 58FD893D2BF1ED3A0085A5B8 /* Base */; };
+		58FD89402BF1ED3B0085A5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FD893F2BF1ED3B0085A5B8 /* Assets.xcassets */; };
+		58FD89432BF1ED3B0085A5B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 58FD89422BF1ED3B0085A5B8 /* Base */; };
+		58FD89462BF1ED3B0085A5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD89452BF1ED3B0085A5B8 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		58FD884E2BEFAFFF0085A5B8 /* NativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58FD88512BEFAFFF0085A5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		58FD88522BEFAFFF0085A5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58FD88542BEFAFFF0085A5B8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		58FD88552BEFAFFF0085A5B8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		58FD88572BEFAFFF0085A5B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58FD88582BEFAFFF0085A5B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		58FD885B2BEFAFFF0085A5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		58FD885D2BEFB0000085A5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		58FD88602BEFB0000085A5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		58FD88622BEFB0000085A5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58FD88632BEFB0000085A5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65A76D68B07841C1FBD177DF /* Pods-NativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeDemo.release.xcconfig"; path = "Target Support Files/Pods-NativeDemo/Pods-NativeDemo.release.xcconfig"; sourceTree = "<group>"; };
-		BA76B910BF8AA84747220C1C /* Pods_NativeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD86209CBFDEDC81ECE21E39 /* Pods-NativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-NativeDemo/Pods-NativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		58FD89302BF1ED3A0085A5B8 /* NativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FD89332BF1ED3A0085A5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58FD89342BF1ED3A0085A5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58FD89362BF1ED3A0085A5B8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		58FD89372BF1ED3A0085A5B8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		58FD89392BF1ED3A0085A5B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58FD893A2BF1ED3A0085A5B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58FD893D2BF1ED3A0085A5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58FD893F2BF1ED3B0085A5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FD89422BF1ED3B0085A5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58FD89442BF1ED3B0085A5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FD89452BF1ED3B0085A5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58FD884B2BEFAFFF0085A5B8 /* Frameworks */ = {
+		58FD892D2BF1ED3A0085A5B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DA75652748B1FE7478E178 /* Pods_NativeDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58FD88452BEFAFFF0085A5B8 = {
+		58FD89272BF1ED3A0085A5B8 = {
 			isa = PBXGroup;
 			children = (
-				58FD88502BEFAFFF0085A5B8 /* NativeDemo */,
-				58FD884F2BEFAFFF0085A5B8 /* Products */,
-				F3B626092D64A92AD9B0246F /* Pods */,
-				963EFB6113F74E1CE79F9921 /* Frameworks */,
+				58FD89322BF1ED3A0085A5B8 /* NativeDemo */,
+				58FD89312BF1ED3A0085A5B8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		58FD884F2BEFAFFF0085A5B8 /* Products */ = {
+		58FD89312BF1ED3A0085A5B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58FD884E2BEFAFFF0085A5B8 /* NativeDemo.app */,
+				58FD89302BF1ED3A0085A5B8 /* NativeDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58FD88502BEFAFFF0085A5B8 /* NativeDemo */ = {
+		58FD89322BF1ED3A0085A5B8 /* NativeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				58FD88512BEFAFFF0085A5B8 /* AppDelegate.h */,
-				58FD88522BEFAFFF0085A5B8 /* AppDelegate.m */,
-				58FD88542BEFAFFF0085A5B8 /* SceneDelegate.h */,
-				58FD88552BEFAFFF0085A5B8 /* SceneDelegate.m */,
-				58FD88572BEFAFFF0085A5B8 /* ViewController.h */,
-				58FD88582BEFAFFF0085A5B8 /* ViewController.m */,
-				58FD885A2BEFAFFF0085A5B8 /* Main.storyboard */,
-				58FD885D2BEFB0000085A5B8 /* Assets.xcassets */,
-				58FD885F2BEFB0000085A5B8 /* LaunchScreen.storyboard */,
-				58FD88622BEFB0000085A5B8 /* Info.plist */,
-				58FD88632BEFB0000085A5B8 /* main.m */,
+				58FD89332BF1ED3A0085A5B8 /* AppDelegate.h */,
+				58FD89342BF1ED3A0085A5B8 /* AppDelegate.m */,
+				58FD89362BF1ED3A0085A5B8 /* SceneDelegate.h */,
+				58FD89372BF1ED3A0085A5B8 /* SceneDelegate.m */,
+				58FD89392BF1ED3A0085A5B8 /* ViewController.h */,
+				58FD893A2BF1ED3A0085A5B8 /* ViewController.m */,
+				58FD893C2BF1ED3A0085A5B8 /* Main.storyboard */,
+				58FD893F2BF1ED3B0085A5B8 /* Assets.xcassets */,
+				58FD89412BF1ED3B0085A5B8 /* LaunchScreen.storyboard */,
+				58FD89442BF1ED3B0085A5B8 /* Info.plist */,
+				58FD89452BF1ED3B0085A5B8 /* main.m */,
 			);
 			path = NativeDemo;
-			sourceTree = "<group>";
-		};
-		963EFB6113F74E1CE79F9921 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BA76B910BF8AA84747220C1C /* Pods_NativeDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F3B626092D64A92AD9B0246F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CD86209CBFDEDC81ECE21E39 /* Pods-NativeDemo.debug.xcconfig */,
-				65A76D68B07841C1FBD177DF /* Pods-NativeDemo.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58FD884D2BEFAFFF0085A5B8 /* NativeDemo */ = {
+		58FD892F2BF1ED3A0085A5B8 /* NativeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58FD88672BEFB0000085A5B8 /* Build configuration list for PBXNativeTarget "NativeDemo" */;
+			buildConfigurationList = 58FD89492BF1ED3B0085A5B8 /* Build configuration list for PBXNativeTarget "NativeDemo" */;
 			buildPhases = (
-				E2A05A3E54E27F7E30FB366F /* [CP] Check Pods Manifest.lock */,
-				126DD31332E043A8BCF2287E /* [CP-User] Run Flutter Build flutter_module Script */,
-				58FD884A2BEFAFFF0085A5B8 /* Sources */,
-				58FD884B2BEFAFFF0085A5B8 /* Frameworks */,
-				58FD884C2BEFAFFF0085A5B8 /* Resources */,
-				3476C724D6AFA5148FDC57BF /* [CP-User] Embed Flutter Build flutter_module Script */,
+				58FD892C2BF1ED3A0085A5B8 /* Sources */,
+				58FD892D2BF1ED3A0085A5B8 /* Frameworks */,
+				58FD892E2BF1ED3A0085A5B8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,24 +93,24 @@
 			);
 			name = NativeDemo;
 			productName = NativeDemo;
-			productReference = 58FD884E2BEFAFFF0085A5B8 /* NativeDemo.app */;
+			productReference = 58FD89302BF1ED3A0085A5B8 /* NativeDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		58FD88462BEFAFFF0085A5B8 /* Project object */ = {
+		58FD89282BF1ED3A0085A5B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					58FD884D2BEFAFFF0085A5B8 = {
+					58FD892F2BF1ED3A0085A5B8 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 58FD88492BEFAFFF0085A5B8 /* Build configuration list for PBXProject "NativeDemo" */;
+			buildConfigurationList = 58FD892B2BF1ED3A0085A5B8 /* Build configuration list for PBXProject "NativeDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,101 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 58FD88452BEFAFFF0085A5B8;
-			productRefGroup = 58FD884F2BEFAFFF0085A5B8 /* Products */;
+			mainGroup = 58FD89272BF1ED3A0085A5B8;
+			productRefGroup = 58FD89312BF1ED3A0085A5B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58FD884D2BEFAFFF0085A5B8 /* NativeDemo */,
+				58FD892F2BF1ED3A0085A5B8 /* NativeDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		58FD884C2BEFAFFF0085A5B8 /* Resources */ = {
+		58FD892E2BF1ED3A0085A5B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FD885E2BEFB0000085A5B8 /* Assets.xcassets in Resources */,
-				58FD88612BEFB0000085A5B8 /* Base in Resources */,
-				58FD885C2BEFAFFF0085A5B8 /* Base in Resources */,
+				58FD89402BF1ED3B0085A5B8 /* Assets.xcassets in Resources */,
+				58FD89432BF1ED3B0085A5B8 /* Base in Resources */,
+				58FD893E2BF1ED3A0085A5B8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		126DD31332E043A8BCF2287E /* [CP-User] Run Flutter Build flutter_module Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Run Flutter Build flutter_module Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
-		};
-		3476C724D6AFA5148FDC57BF /* [CP-User] Embed Flutter Build flutter_module Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Embed Flutter Build flutter_module Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
-		};
-		E2A05A3E54E27F7E30FB366F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NativeDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		58FD884A2BEFAFFF0085A5B8 /* Sources */ = {
+		58FD892C2BF1ED3A0085A5B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FD88592BEFAFFF0085A5B8 /* ViewController.m in Sources */,
-				58FD88532BEFAFFF0085A5B8 /* AppDelegate.m in Sources */,
-				58FD88642BEFB0000085A5B8 /* main.m in Sources */,
-				58FD88562BEFAFFF0085A5B8 /* SceneDelegate.m in Sources */,
+				58FD893B2BF1ED3A0085A5B8 /* ViewController.m in Sources */,
+				58FD89352BF1ED3A0085A5B8 /* AppDelegate.m in Sources */,
+				58FD89462BF1ED3B0085A5B8 /* main.m in Sources */,
+				58FD89382BF1ED3A0085A5B8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58FD885A2BEFAFFF0085A5B8 /* Main.storyboard */ = {
+		58FD893C2BF1ED3A0085A5B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				58FD885B2BEFAFFF0085A5B8 /* Base */,
+				58FD893D2BF1ED3A0085A5B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		58FD885F2BEFB0000085A5B8 /* LaunchScreen.storyboard */ = {
+		58FD89412BF1ED3B0085A5B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				58FD88602BEFB0000085A5B8 /* Base */,
+				58FD89422BF1ED3B0085A5B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		58FD88652BEFB0000085A5B8 /* Debug */ = {
+		58FD89472BF1ED3B0085A5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		58FD88662BEFB0000085A5B8 /* Release */ = {
+		58FD89482BF1ED3B0085A5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,16 +291,14 @@
 			};
 			name = Release;
 		};
-		58FD88682BEFB0000085A5B8 /* Debug */ = {
+		58FD894A2BF1ED3B0085A5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD86209CBFDEDC81ECE21E39 /* Pods-NativeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z66HZHJAJH;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NativeDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -392,16 +318,14 @@
 			};
 			name = Debug;
 		};
-		58FD88692BEFB0000085A5B8 /* Release */ = {
+		58FD894B2BF1ED3B0085A5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65A76D68B07841C1FBD177DF /* Pods-NativeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z66HZHJAJH;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NativeDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -424,25 +348,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58FD88492BEFAFFF0085A5B8 /* Build configuration list for PBXProject "NativeDemo" */ = {
+		58FD892B2BF1ED3A0085A5B8 /* Build configuration list for PBXProject "NativeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58FD88652BEFB0000085A5B8 /* Debug */,
-				58FD88662BEFB0000085A5B8 /* Release */,
+				58FD89472BF1ED3B0085A5B8 /* Debug */,
+				58FD89482BF1ED3B0085A5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58FD88672BEFB0000085A5B8 /* Build configuration list for PBXNativeTarget "NativeDemo" */ = {
+		58FD89492BF1ED3B0085A5B8 /* Build configuration list for PBXNativeTarget "NativeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58FD88682BEFB0000085A5B8 /* Debug */,
-				58FD88692BEFB0000085A5B8 /* Release */,
+				58FD894A2BF1ED3B0085A5B8 /* Debug */,
+				58FD894B2BF1ED3B0085A5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 58FD88462BEFAFFF0085A5B8 /* Project object */;
+	rootObject = 58FD89282BF1ED3A0085A5B8 /* Project object */;
 }
