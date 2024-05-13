@@ -1,4 +1,4 @@
-name: flutterCI #CI名称
+name: FlutterCI #CI名称
 on: [push] #触发条件push操作！
 
 jobs:
