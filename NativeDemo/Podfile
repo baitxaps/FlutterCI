@@ -4,6 +4,6 @@ platform :ios, '12.0'
 target 'NativeDemo' do
 
   use_frameworks!
-  pod 'Flutter',:podspec => '../Flutter_app/Debug/Flutter.podspec'
+  pod 'Flutter',:podspec => 'Flutter/Debug/Flutter.podspec'
 
 end
