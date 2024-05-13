@@ -1,2 +1,2 @@
 # FlutterCI for test
-building...
+CI
